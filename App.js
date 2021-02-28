@@ -4,7 +4,9 @@ import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
   return (
+    // View: div 태그 역할
     <View style={styles.container}>
+      {/* View: span 태그 역할 */}
       <View style={styles.yellowView}></View>
       <View style={styles.blueView}></View>
       <StatusBar style='auto' />
