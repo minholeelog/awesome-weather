@@ -1,12 +1,11 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View, StatusBar } from "react-native";
 
 export default function Loading() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Getting the awesome weather</Text>
-      <StatusBar style='auto'></StatusBar>
+      <StatusBar barStyle='dark-content'></StatusBar>
     </View>
   );
 }
